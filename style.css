@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(53, 37, 37);
+    height: 90vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 0;
+}
+
+.myCanvas {
+    background-color: bisque;
+    border: 5px solid black;
+    width: 60vw;
+    height: 70vh;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5 {
+    width: 20%;
+    height: 50px;
+    color: white;
+    background-color: rgb(122, 122, 144);
+    text-align: center;
+    padding-top: 25px;
+    border: 2px solid black;
+}
+
+#btn1:active, #btn2:active, #btn3:active, #btn4:active, #btn5:active {
+    width: 20%;
+    color: black;
+    height: 38px;
+    background-color: rgb(153, 153, 177);
+}
+
+.flexRow {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
